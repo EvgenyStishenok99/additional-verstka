@@ -17,7 +17,7 @@ a {
 ul {
   list-style: none;
 }
-span {
+.first_section {
 font-size: 34px;
   font-weight: bold;
  color: white;
@@ -30,13 +30,13 @@ font-size: 34px;
 }
 .span_text{
  align-self: center;
-  padding-left: 50px;
+
 }
 .menu-item{
-  padding: 20px;
+  padding:  20px 0px 20px 40px;
 }
 .menu-link {
- ////////
+
   font-weight: 400;
   font-size: 17px;
   line-height: 159%;
@@ -45,14 +45,14 @@ font-size: 34px;
 .header-text{
   display: flex;
   justify-content: space-between;
-  padding: 25px;
+
 }
 
 .container {
   width: 100%;
-  height: 100%;
-  max-width: 1440px;
-  padding: 0 15px;
+  height: auto;
+  max-width: 1300px;
+
   margin-left: auto;
   margin-right: auto;
  /*border: 1px solid red;*/
@@ -62,7 +62,7 @@ font-size: 34px;
   width: 650px;
   height: 873px;
   margin-top: 40px;
-  margin-left: 70px;
+
 }
 
 .main-title{
@@ -109,6 +109,7 @@ font-size: 34px;
 }
 .main-wrapper{
   display: flex;
+  margin-bottom: 100px;
 }
 
 .right-column-main{
@@ -122,4 +123,95 @@ font-size: 34px;
 
   display: flex;
   justify-content: space-between;
+}
+
+.second_section{
+
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 124%;
+  letter-spacing: 0.05em;
+  color: #fff;
+}
+.header-button{
+  width: 178px;
+  height: 51px;
+  background-color: #118DA8;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 159%;
+  color: #fff;
+  border-radius: 7px;
+  align-self: center;
+}
+.column-wrapper{
+
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+
+
+}
+.content-img{
+/*max-height: 465px;
+  max-width: 389px;*/
+ margin-right: 53px;
+}
+.column-wrapper-content{
+  display: flex;
+
+  background-color: black;
+  border-radius: 20px;
+  padding: 40px;
+  margin-bottom: 60px;
+
+
+}
+label{
+display: inline-block;
+  border-radius: 6px;
+width: fit-content;
+  background: #191919;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 48px;
+  padding-left: 16px;
+  padding-right: 16px;
+
+}
+em {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 159%;
+  color: #118da8;
+  margin-bottom: 18px;
+}
+h1{
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 110%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  margin-bottom: 28px;
+  max-width: 701px;
+}
+p{
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.7);
+  max-width: 757px;
+  margin-bottom: 18px;
+}
+.right_colum_in_content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.right_colum_in_content > button{
+  align-self: start;
 }
